@@ -1,0 +1,2 @@
+php_amqp:
+    dsn: "%env(AMQP_DSN)%"

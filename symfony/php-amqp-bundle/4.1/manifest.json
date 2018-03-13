@@ -1,0 +1,11 @@
+{
+    "bundles": {
+        "Symfony\\Bundle\\PhpAmqpBundle\\PhpAmqpBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "AMQP_DSN": "amqp://guest:guest@localhost:5672/%2f/messages"
+    }   
+}
